@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="clac.css">
+   <script src="calc.js"></script>
+</head>
+<body>
+    <center>
+    <table cellspacing="5">
+        <tr>
+            <td colspan="3"><input type="text" id="display"></td>
+            <td><button id="cls" onclick="clr()">CLS</button></td>
+        </tr>
+        <tr>
+            <td><button id="1"onclick="getdata('1')">1</button></td>
+            <td><button id="2"onclick="getdata('2')">2</button></td>
+            <td><button id="3"onclick="getdata('3')">3</button></td>
+            <td><button id="+" onclick="getopr('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="4"onclick="getdata('4')">4</button></td>
+            <td><button id="5"onclick="getdata('5')">5</button></td>
+            <td><button id="6"onclick="getdata('6')">6</button></td>
+            <td><button id="-"onclick="getopr('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="7"onclick="getdata('7')">7</button></td>
+            <td><button id="8"onclick="getdata('8')">8</button></td>
+            <td><button id="9"onclick="getdata('9')">9</button></td>
+            <td><button id="X"onclick="getopr('*')">X</button></td>
+        </tr>
+        <tr>
+            <td><button id="."onclick="getdata('.')">.</button></td>
+            <td><button id="0"onclick="getdata('0')">0</button></td>
+            <td><button id="="onclick="getres()">=</button></td>
+            <td><button id="/"onclick="getopr('/')">/</button></td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
